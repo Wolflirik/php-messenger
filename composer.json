@@ -1,0 +1,20 @@
+{
+    "name": "ulvbern/messenger",
+    "description": "ws messenger",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ulvbern",
+            "email": "wolflirik@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "front\\": "front",
+            "system\\": "system"
+        }
+    },
+    "require": {
+        "cboden/ratchet": "^0.4.3"
+    }
+}
